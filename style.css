@@ -144,15 +144,7 @@ ul{
 .side_section .content i:hover{
     transform: scale(1.3);
 }
-/* content of  about */
-.content{
-    margin-top: 10px;
-    color: azure;
-    background-color: rgb(19, 116, 83);
-    text-align: center;
-    padding: 10px 10px 10px 10px;
-    border-radius: 20px;
-}
+
 
 /* sticky */
 
