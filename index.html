@@ -1,64 +1,145 @@
 <!DOCTYPE html>
+<!-- {% load static %} -->
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap Link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- Fontawesome -->
+    <!-- bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- <link href= "{%static "/css/main" %}" rel = 'stylesheet' type="text/css"> -->
+    <!-- fontawesom -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
-    <!-- Style Css -->
-    <link rel="stylesheet" href="style.css">
-    <title>Nisha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisha Pela</title>
+
 </head>
-
 <body>
-    <div class="main_container">
-        <section class="social_media">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/nisha-pela-74624a211/"><i class="fab fa-linkedin-in"></i></a>
-        </section>
-        <nav class="nav">
-            <ul>
-                <a href="/"><li>HOME</li></a>
-                <a href="/about.html"><li>ABOUT</li></a>
-                <a href="/Blogs/blog.html"><li>BLOG</li></a>
-                <a href="/projects.html"><li>PROJECTS</li></a>
-            </ul>
-        </nav>
-
-        <div class="sub_container">
-           <section class="photo_section">
-                    <div class="photo">
-                        <img src="https://thumbs.dreamstime.com/b/woman-praying-free-birds-to-nature-sunset-background-woman-praying-free-birds-enjoying-nature-sunset-99680945.jpg" alt="">
-                    </div>
-                    <div class="empty"></div>
-            </section>
-           <aside class="side_section">
-                <div class="content">
-                    <p class="title">NISHA PELA</p>
-                    <p class="detail">"Hi, my name is Nisha pela, a django developer, currently studying BSc.CSIT at Tribhuvan University"</p>
-                    <div class="skills">
-                        <p class="skills">
-                            <span><i class="fab fa-python"></i></span>
-                            <span><i class="fab fa-java"></i></span>
-                            <span><i class="fas fa-database"></i></span>
-                            <span><i class="fab fa-css3-alt"></i></span>
+    <!-- <nav class="nav">
+        <ul>
+            <a href="/"><li>HOME</li></a>
+            <a href="/about.html"><li>ABOUT</li></a>
+            <a href="/Blogs/blog.html"><li>BLOG</li></a>
+            <a href="/projects.html"><li>PROJECTS</li></a>
+        </ul>
+    </nav> -->
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info">
+                    <img src="k-mitch-hodge-z_B4NziH-_4-unsplash (1).jpg" alt="img">
+                    <h4>Hi! I am Nisha!</h4>
+                    <p>A Django Developer</p>
+                </div>
+                
+            </div>
+            
+            
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h2>About me</h2>
+                    <p>I am a 19 years old, currently studying BSc.CSIT at Tribhuvan University. I love learning new things and coding.
+                        Some of the things I have some sort of knowledge are some progrmming languages , postgres and the django framework.
+                        Apart from this, my favourite color is <a href="https://en.wikipedia.org/wiki/Grey">grey</a>
+                        <br>
+                        Wanna know more about me? 
+                        <br>
+                        Some of the platforms to connect with me:
+                       
+                        <section class="social_media">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nisha-pela-74624a211/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com/PelaNisha"><i class="fab fa-github"></i></a>
+                        </section>
                         </p>
+                </div>
+                
+            </div>
+        </div>
+        <br>
+    
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h2>My Skills</h2>
+                    <p>I know some sort of knowledge in C, C++, Python< java, Django, HTML, CSS</p>
+  
+                    <p class="skills">
+                        <span><i class="fab fa-python"></i></span>
+                        <span><i class="fab fa-java"></i></span>
+                        <span><i class="fas fa-database"></i></span>
+                        <span><i class="fab fa-css3-alt"></i></span>
+                       
+                    </p>
+                </div>
+            </div>
+             <div class="col-md-6">
+                <div class="card card-body h-100">
+                    
+                    <h2>Future Goals</h2>
+                    <ol>
+                        <li>Build a dynamic website</li>
+                        <li>Master the designing and responsiveness</li>
+                        <li>Not to forget the above two or replace them</li>
+                    </ol>
+                </div>
+        </div>
+        </div>
+         <br>
+        <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h2>Work Philosophy</h2>
+                        <p>"Far and away the best prize that life offers is the chance to work hard at work worth doing" </p>
                     </div>
                 </div>
-           </aside>
+                 <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        
+                    <h2>My Blogs</h2>
+                    <p>I haven't posted any blogs till now, but I will update soon:)</p>
+                    </div>
+                </div>
         </div>
-
+        <br>
     </div>
 
-    <script src="script.js"></script>
 </body>
+<style>
+    body{
+        background:linear-gradient(35deg,#3d8056, #65a6cc);
+    }
+    img{
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      margin: auto;
+    }
 
+    .social_media{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0.8rem 2rem 0.8rem 0;
+
+    }
+    .social_media i{
+        margin: 0 0.5rem;
+        font-size: 1.5rem;
+        color: rgb(95, 84, 84);
+        transition: all 0.3s ease;
+    }
+    .social_media i:hover{
+        transform: scale(1.1);
+    
+    }
+    .skills{
+        font-size: 1.5rem;
+    }
+    
+
+
+</style>
 </html>
